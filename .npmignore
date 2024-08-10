@@ -1,0 +1,5 @@
+node_modules
+.prettierrc
+.gitignore
+next-env.d.ts
+lib

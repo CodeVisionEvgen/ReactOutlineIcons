@@ -1,11 +1,8 @@
 {
   "name": "react-outline-icons",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Pretty outline icons for your projects",
-  "main": "dist/icons.jsx",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "dist/lib/icons.js",
   "keywords": [
     "react",
     "icons",
