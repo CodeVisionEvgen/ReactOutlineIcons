@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "jsx": "react-jsx", // або "react" для старіших версій React
+    "declaration": true, // Згенерує .d.ts файли
+    "outDir": "./dist", // Директорія для вихідних файлів
+    "strict": true, // Увімкнути сувору типізацію
+    "esModuleInterop": true, // Забезпечує сумісність з модулями ES
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true, // Це корисно для підтримки strict mode
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["lib/**/*"], // Включити всі файли в директорії src
+  "exclude": ["node_modules", "dist"] // Виключити директорію dist та node_modules
+}
