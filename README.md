@@ -28,6 +28,22 @@ export default function Page() {
 }
 ```
 
+OR
+
+```tsx
+'use client';
+import React from 'react';
+import { AirplayIcon } from 'react-outline-icons';
+
+export default function Page() {
+  return (
+    <div>
+      <AirplayIcon size={35} stroke='#ff5555' strokeWidth={2} />
+    </div>
+  );
+}
+```
+
 # All icons come with the following customizable props:
 
     size: Adjust the size of the icon. Accepts a number representing the pixel size.
