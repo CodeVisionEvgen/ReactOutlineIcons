@@ -1,15 +1,22 @@
 {
   "name": "react-outline-icons",
-  "version": "1.0.5",
-  "description": "Pretty outline icons for your projects",
+  "version": "1.0.6",
+  "description": "A lightweight and easy-to-use icon pack for React that provides minimalistic and modern, customizable icons.",
   "main": "dist/lib/icons.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeVisionEvgen/react-outline-icons"
+  },
+  "homepage": "https://github.com/CodeVisionEvgen/react-outline-icons#readme",
   "keywords": [
     "react",
     "icons",
-    "outline-icons"
+    "outline",
+    "minimalistic",
+    "modern"
   ],
   "author": "CodeVisionEvgen",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react": "^18.3.1"
   },
