@@ -46,6 +46,7 @@ export default function Page() {
 
 # All icons come with the following customizable props:
 
+    className: Ability to add styles through CSS
     size: Adjust the size of the icon. Accepts a number representing the pixel size.
     stroke: Customize the stroke color. Accepts any valid CSS color value.
     strokeWidth: Define the thickness of the icon's lines. Accepts a number representing the pixel width.
