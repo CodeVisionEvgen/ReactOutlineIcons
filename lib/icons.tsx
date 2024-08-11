@@ -14,6 +14,14 @@ export const ArrowDownBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   </svg>
 
 )
+export const CopyIcon: React.FC<IconSvgProps> = ({
+  ...props
+}) => (
+  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
+    <path d="M9 9H6.51429C5.6342 9 5.19416 9 4.85802 9.17128C4.56233 9.32193 4.32193 9.56233 4.17128 9.85802C4 10.1942 4 10.6342 4 11.5143V17.4857C4 18.3658 4 18.8058 4.17128 19.142C4.32193 19.4377 4.56233 19.6781 4.85802 19.8287C5.19416 20 5.6342 20 6.51429 20H12.4857C13.3658 20 13.8058 20 14.142 19.8287C14.4377 19.6781 14.6781 19.4377 14.8287 19.142C15 18.8058 15 18.3658 15 17.4857V15M9 9H12.4857C13.3658 9 13.8058 9 14.142 9.17128C14.4377 9.32193 14.6781 9.56233 14.8287 9.85802C15 10.1942 15 10.6342 15 11.5143V15M9 9V6.51429C9 5.6342 9 5.19416 9.17128 4.85801C9.32193 4.56233 9.56233 4.32193 9.85802 4.17128C10.1942 4 10.6342 4 11.5143 4H17.4857C18.3658 4 18.8058 4 19.142 4.17128C19.4377 4.32193 19.6781 4.56233 19.8287 4.85801C20 5.19416 20 5.6342 20 6.51429V12.4857C20 13.3658 20 13.8058 19.8287 14.142C19.6781 14.4377 19.4377 14.6781 19.142 14.8287C18.8058 15 18.3658 15 17.4857 15H15" stroke={props.stroke} strokeWidth={props.strokeWidth} strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+
+);
 
 export const ArrowDownLeftBG1Icon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
