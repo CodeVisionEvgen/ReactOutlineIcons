@@ -8,19 +8,6 @@ export const AirplayIcon: React.FC<IconSvgProps> = ({ ...props }) => (
 
 )
 
-export const ArrowDownBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M12 19.7072V3.70715M18 14.7072L12.7071 20C12.3166 20.3906 11.6834 20.3906 11.2929 20L6 14.7072" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-export const AddIcon: React.FC<IconSvgProps> = ({
-  ...props
-}) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M14 7V10M14 10V13M14 10H17M14 10H11M17 21H6.2C5.0799 21 4.51984 21 4.09202 20.782C3.71569 20.5903 3.40973 20.2843 3.21799 19.908C3 19.4802 3 18.9201 3 17.8V7M10.2 3H17.8C18.9201 3 19.4802 3 19.908 3.21799C20.2843 3.40973 20.5903 3.71569 20.782 4.09202C21 4.51984 21 5.0799 21 6.2V13.8C21 14.9201 21 15.4802 20.782 15.908C20.5903 16.2843 20.2843 16.5903 19.908 16.782C19.4802 17 18.9201 17 17.8 17H10.2C9.0799 17 8.51984 17 8.09202 16.782C7.71569 16.5903 7.40973 16.2843 7.21799 15.908C7 15.4802 7 14.9201 7 13.8V6.2C7 5.0799 7 4.51984 7.21799 4.09202C7.40973 3.71569 7.71569 3.40973 8.09202 3.21799C8.51984 3 9.07989 3 10.2 3Z" stroke={props.stroke} strokeWidth={props.strokeWidth} strokeLinecap="round" />
-  </svg>
-);
 export const CopyIcon: React.FC<IconSvgProps> = ({
   ...props
 }) => (
@@ -30,79 +17,34 @@ export const CopyIcon: React.FC<IconSvgProps> = ({
 
 );
 
-export const ArrowDownLeftBG1Icon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M17 17L6 6M9 18L17 18C17.5523 18 18 17.5523 18 17V9" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
-
-export const ArrowDownLeftBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M7 17L18 6M15 18L7 18C6.44772 18 6 17.5523 6 17L6 9" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const ArrowDownLeftMD1Icon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowDownLeft1Icon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M18 18L5 5M18.9999 11.0001L19 18C19 18.5523 18.5523 19 18 19H11" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowDownLeftMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowDownLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M5.99999 18L19 5M5.00008 11.0001L5 18C4.99999 18.5523 5.44771 19 6 19H13" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowDownLeftMN1Icon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M17.5 17.5L6 6M10.9999 18H17.8999C17.9552 18 17.9999 17.9552 17.9999 17.9L18.0002 11.0003" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
-
-export const ArrowDownLeftMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M6.50031 17.5L18.0003 6M13.0003 18H6.1003C6.04508 18 6.00031 17.9552 6.0003 17.9L6 11.0003" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const ArrowDownMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowDownIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M12 21.2072V2.20715M18 16.2072L12.7071 21.5C12.3166 21.8906 11.6834 21.8906 11.2929 21.5L6 16.2072" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowDownMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M12 19.5V3.5M17 16.5L12.0884 20.4707C12.0396 20.5098 11.9604 20.5098 11.9116 20.4707L7 16.5" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
 
-export const ArrowLeftBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M4.29282 12L20.2928 12M9.29282 18L3.99992 12.7071C3.6094 12.3166 3.6094 11.6834 3.99992 11.2929L9.29282 6" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const ArrowLeftMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M2.79282 12L21.7928 12M7.79282 18L2.49992 12.7071C2.1094 12.3166 2.1094 11.6834 2.49992 11.2929L7.79282 6" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const ArrowLeftMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M4.5 12L20.5 12M7.5 17L3.52929 12.0884C3.49024 12.0396 3.49024 11.9604 3.52929 11.9116L7.5 7" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
@@ -121,26 +63,14 @@ export const ArrowReload02Icon: React.FC<IconSvgProps> = ({ ...props }) => (
 
 )
 
-export const ArrowRightBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M19.707 12L3.70703 12M14.707 18L19.9999 12.7071C20.3904 12.3166 20.3904 11.6834 19.9999 11.2929L14.707 6" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
-
-export const ArrowRightMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowRightIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M21.207 12L2.20703 12M16.207 18L21.4999 12.7071C21.8904 12.3166 21.8904 11.6834 21.4999 11.2929L16.207 6" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowRightMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M19.5 12L3.5 12M16.5 17L20.4707 12.0884C20.5098 12.0396 20.5098 11.9604 20.4707 11.9116L16.5 7" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
 
 export const ArrowSubDownLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
@@ -226,119 +156,82 @@ export const ArrowUndoUpRightIcon: React.FC<IconSvgProps> = ({ ...props }) => (
 
 )
 
-export const ArrowUpBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M12 4.29288V20.2929M18 9.29288L12.7071 3.99999C12.3166 3.60946 11.6834 3.60946 11.2929 3.99999L6 9.29288" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
-
-export const ArrowUpLeftBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M7 7L18 18M15 6L7 6C6.44772 6 6 6.44772 6 7L6 15" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const ArrowUpLeftMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowUpLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M5.99999 6L19 19M5.00008 12.9999L5 6.00001C4.99999 5.44772 5.44771 5 6 5L13 5" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowUpLeftMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M6.0296 6.02929L18.0003 18M13.0003 6L6.1003 6C6.04508 6 6.00031 6.04477 6.0003 6.1L6 12.9997" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
-
-export const ArrowUpMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowUpIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M12 2.79288V21.7929M18 7.79288L12.7071 2.49999C12.3166 2.10946 11.6834 2.10946 11.2929 2.49999L6 7.79288" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowUpMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M12 4.5V20.5M17 7.5L12.0884 3.52929C12.0396 3.49024 11.9604 3.49024 11.9116 3.52929L7 7.5" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
 
-export const ArrowUpRightBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M17 7L6 18M9 6L17 6C17.5523 6 18 6.44772 18 7V15" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const ArrowUpRightMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowUpRightIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M18 6L5 19M18.9999 12.9999L19 6.00001C19 5.44772 18.5523 5 18 5L11 5" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowUpRightMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M17.5 6.5L6 18M10.9999 6L17.8999 6C17.9552 6 17.9999 6.04477 17.9999 6.1L18.0002 12.9997" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
-
-export const ArrowsCircleDownIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowCircleDownIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M9 13L11.4343 15.4343C11.6323 15.6323 11.7313 15.7313 11.8455 15.7684C11.8957 15.7847 11.9479 15.7929 12 15.7929M15 13L12.5657 15.4343C12.3677 15.6323 12.2687 15.7313 12.1545 15.7684C12.1043 15.7847 12.0521 15.7929 12 15.7929M12 15.7929V8.00011M18.364 5.63604C21.8787 9.15076 21.8787 14.8492 18.364 18.364C14.8492 21.8787 9.15076 21.8787 5.63604 18.364C2.12132 14.8492 2.12132 9.15076 5.63604 5.63604C9.15076 2.12132 14.8492 2.12132 18.364 5.63604Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowsCircleDownLeft1Icon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowCircleDownLeft1Icon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M9.17157 10.5858L9.17157 14.0284C9.17157 14.3085 9.17157 14.4485 9.22607 14.5554C9.25004 14.6025 9.28115 14.6451 9.31802 14.682M13.4142 14.8284L9.97157 14.8284C9.69155 14.8284 9.55153 14.8284 9.44458 14.7739C9.39754 14.75 9.35489 14.7189 9.31802 14.682M9.31802 14.682L14.8283 9.17165M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowsCircleDownLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowCircleDownLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M14.8284 10.5858L14.8284 14.0284C14.8284 14.3085 14.8284 14.4485 14.7739 14.5554C14.75 14.6025 14.7189 14.6451 14.682 14.682M10.5858 14.8284L14.0284 14.8284C14.3085 14.8284 14.4485 14.8284 14.5554 14.7739C14.6025 14.75 14.6451 14.7189 14.682 14.682M14.682 14.682L9.17165 9.17165M3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowsCircleLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowCircleLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M11 9L8.56568 11.4343C8.36768 11.6323 8.26867 11.7313 8.23158 11.8455C8.21526 11.8957 8.20711 11.9479 8.20711 12M11 15L8.56568 12.5657C8.36768 12.3677 8.26867 12.2687 8.23158 12.1545C8.21526 12.1043 8.20711 12.0521 8.20711 12M8.20711 12L15.9999 12M18.364 18.364C14.8492 21.8787 9.15075 21.8787 5.63604 18.364C2.12132 14.8492 2.12132 9.15076 5.63604 5.63604C9.15075 2.12132 14.8492 2.12132 18.364 5.63604C21.8787 9.15076 21.8787 14.8492 18.364 18.364Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowsCircleRightIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowCircleRightIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M13 15L15.4343 12.5657C15.6323 12.3677 15.7313 12.2687 15.7684 12.1545C15.7847 12.1043 15.7929 12.0521 15.7929 12M13 9L15.4343 11.4343C15.6323 11.6323 15.7313 11.7313 15.7684 11.8455C15.7847 11.8957 15.7929 11.9479 15.7929 12M15.7929 12L8.00011 12M5.63604 5.63604C9.15076 2.12132 14.8492 2.12132 18.364 5.63604C21.8787 9.15075 21.8787 14.8492 18.364 18.364C14.8492 21.8787 9.15076 21.8787 5.63604 18.364C2.12132 14.8492 2.12132 9.15075 5.63604 5.63604Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowsCircleUpIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowCircleUpIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M15 11L12.5657 8.56568C12.3677 8.36768 12.2687 8.26867 12.1545 8.23158C12.1043 8.21526 12.0521 8.2071 12 8.2071M9 11L11.4343 8.56568C11.6323 8.36767 11.7313 8.26867 11.8455 8.23158C11.8957 8.21526 11.9479 8.2071 12 8.2071M12 8.2071L12 15.9999M5.63604 18.364C2.12132 14.8492 2.12132 9.15075 5.63604 5.63604C9.15076 2.12132 14.8492 2.12132 18.364 5.63604C21.8787 9.15075 21.8787 14.8492 18.364 18.364C14.8492 21.8787 9.15075 21.8787 5.63604 18.364Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowsCircleUpLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowCircleUpLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M9.17157 13.4142L9.17157 9.97157C9.17157 9.69154 9.17157 9.55153 9.22607 9.44458C9.25004 9.39753 9.28115 9.35489 9.31802 9.31802M13.4142 9.17157L9.97157 9.17157C9.69155 9.17157 9.55153 9.17157 9.44458 9.22607C9.39754 9.25004 9.35489 9.28114 9.31802 9.31802M9.31802 9.31802L14.8283 14.8283M21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const ArrowsCircleUpRightIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const ArrowCircleUpRightIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M14.8284 13.4142L14.8284 9.97157C14.8284 9.69154 14.8284 9.55153 14.7739 9.44458C14.75 9.39753 14.7189 9.35489 14.682 9.31802M10.5858 9.17157L14.0284 9.17157C14.3085 9.17157 14.4485 9.17157 14.5554 9.22607C14.6025 9.25004 14.6451 9.28114 14.682 9.31802M14.682 9.31802L9.17165 14.8283M3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
@@ -520,89 +413,38 @@ export const CaretDoubleUpIcon: React.FC<IconSvgProps> = ({ ...props }) => (
 
 )
 
-export const CaretDownBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M18 9L13.1314 13.8686C12.7354 14.2646 12.5373 14.4627 12.309 14.5368C12.1082 14.6021 11.8918 14.6021 11.691 14.5368C11.4627 14.4627 11.2646 14.2646 10.8686 13.8686L6 9" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
 
-export const CaretDownMDBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M17 10L12.0884 13.9707C12.0396 14.0098 11.9604 14.0098 11.9116 13.9707L7 10" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
 
-export const CaretDownMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M9 10.5L11.4343 12.9343C11.6323 13.1323 11.7313 13.2313 11.8455 13.2684C11.9459 13.3011 12.0541 13.3011 12.1545 13.2684C12.2687 13.2313 12.3677 13.1323 12.5657 12.9343L15 10.5" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const CaretLeftBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M15 18L10.1314 13.1314C9.73535 12.7354 9.53735 12.5373 9.46316 12.309C9.3979 12.1082 9.3979 11.8918 9.46316 11.691C9.53735 11.4627 9.73535 11.2646 10.1314 10.8686L15 6" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const CaretLeftMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const CaretLeftIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M14 17L10.0293 12.0884C9.99024 12.0396 9.99024 11.9604 10.0293 11.9116L14 7" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const CaretLeftMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M13.5 9L11.0657 11.4343C10.8677 11.6323 10.7687 11.7313 10.7316 11.8455C10.6989 11.9459 10.6989 12.0541 10.7316 12.1545C10.7687 12.2687 10.8677 12.3677 11.0657 12.5657L13.5 15" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
 
-export const CaretRightBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M9 18L13.8686 13.1314C14.2646 12.7354 14.4627 12.5373 14.5368 12.309C14.6021 12.1082 14.6021 11.8918 14.5368 11.691C14.4627 11.4627 14.2646 11.2646 13.8686 10.8686L9 6" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
-
-export const CaretRightMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const CaretRightIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M10 17L13.9707 12.0884C14.0098 12.0396 14.0098 11.9604 13.9707 11.9116L10 7" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const CaretRightMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M10.5 15L12.9343 12.5657C13.1323 12.3677 13.2313 12.2687 13.2684 12.1545C13.3011 12.0541 13.3011 11.9459 13.2684 11.8455C13.2313 11.7313 13.1323 11.6323 12.9343 11.4343L10.5 9" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
 
-export const CaretUpBGIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M18 15L13.1314 10.1314C12.7354 9.73535 12.5373 9.53735 12.309 9.46316C12.1082 9.3979 11.8918 9.3979 11.691 9.46316C11.4627 9.53735 11.2646 9.73535 10.8686 10.1314L6 15" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
-
-export const CaretUpMDIcon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const CaretUpIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M17 14L12.0884 10.0293C12.0396 9.99024 11.9604 9.99024 11.9116 10.0293L7 14" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const CaretUpMNIcon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M9 13.5L11.4343 11.0657C11.6323 10.8677 11.7313 10.7687 11.8455 10.7316C11.9459 10.6989 12.0541 10.6989 12.1545 10.7316C12.2687 10.7687 12.3677 10.8677 12.5657 11.0657L15 13.5" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
 
-)
 
 export const ChatIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
@@ -1270,23 +1112,16 @@ export const HomePlus02Icon: React.FC<IconSvgProps> = ({ ...props }) => (
 
 )
 
-export const Layer01Icon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const LayersSmIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M2.9436 14.836L11.4222 20.0173C11.7423 20.2129 12.1449 20.2129 12.4651 20.0173L20.9436 14.836M3.42911 8.81228L11.4855 3.97848C11.8021 3.78847 12.1978 3.78847 12.5144 3.97847L20.5708 8.81228C21.2181 9.20069 21.2181 10.1389 20.5708 10.5273L12.5144 15.3611C12.1978 15.5511 11.8021 15.5511 11.4855 15.3611L3.42911 10.5273C2.78177 10.1389 2.78177 9.20069 3.42911 8.81228Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const Layer02Icon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const LayersLgIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M2.9436 12.586L11.4222 17.7673C11.7423 17.9629 12.1449 17.9629 12.4651 17.7673L20.9436 12.586M2.9436 17.086L11.4222 22.2673C11.7423 22.4629 12.1449 22.4629 12.4651 22.2673L20.9436 17.086M3.42911 6.56228L11.4855 1.72848C11.8021 1.53847 12.1978 1.53847 12.5144 1.72847L20.5708 6.56228C21.2181 6.95069 21.2181 7.88887 20.5708 8.27727L12.5144 13.1111C12.1978 13.3011 11.8021 13.3011 11.4855 13.1111L3.42911 8.27727C2.78177 7.88887 2.78177 6.95069 3.42911 6.56228Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
-  </svg>
-
-)
-
-export const Layer03Icon: React.FC<IconSvgProps> = ({ ...props }) => (
-  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
-    <path d="M9 9H6.51429C5.6342 9 5.19416 9 4.85802 9.17128C4.56233 9.32193 4.32193 9.56233 4.17128 9.85802C4 10.1942 4 10.6342 4 11.5143V17.4857C4 18.3658 4 18.8058 4.17128 19.142C4.32193 19.4377 4.56233 19.6781 4.85802 19.8287C5.19416 20 5.6342 20 6.51429 20H12.4857C13.3658 20 13.8058 20 14.142 19.8287C14.4377 19.6781 14.6781 19.4377 14.8287 19.142C15 18.8058 15 18.3658 15 17.4857V15M9 9H12.4857C13.3658 9 13.8058 9 14.142 9.17128C14.4377 9.32193 14.6781 9.56233 14.8287 9.85802C15 10.1942 15 10.6342 15 11.5143V15M9 9V6.51429C9 5.6342 9 5.19416 9.17128 4.85801C9.32193 4.56233 9.56233 4.32193 9.85802 4.17128C10.1942 4 10.6342 4 11.5143 4H17.4857C18.3658 4 18.8058 4 19.142 4.17128C19.4377 4.32193 19.6781 4.56233 19.8287 4.85801C20 5.19416 20 5.6342 20 6.51429V12.4857C20 13.3658 20 13.8058 19.8287 14.142C19.6781 14.4377 19.4377 14.6781 19.142 14.8287C18.8058 15 18.3658 15 17.4857 15H15" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 
 )
@@ -1930,14 +1765,14 @@ export const Slider01Icon: React.FC<IconSvgProps> = ({ ...props }) => (
 
 )
 
-export const Sliider01Icon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const Slider02Icon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M20.5 5H14.5M3.5 12H14.5M20.5 19H12.5M3.5 5H10.5M3.50001 19H8.5M20.5 12H18.5M10.5 3V7M14.5 10V14M8.5 17V21" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
 
 )
 
-export const Sliider02Icon: React.FC<IconSvgProps> = ({ ...props }) => (
+export const Slider03Icon: React.FC<IconSvgProps> = ({ ...props }) => (
   <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={props.className}>
     <path d="M20.5 5H14.5M3.5 12H9.5M20.5 19H14.5M5.5 5L3.5 5M5.5 5C5.5 6.38071 6.61929 7.5 8 7.5C9.38071 7.5 10.5 6.38071 10.5 5C10.5 3.61929 9.38071 2.5 8 2.5C6.61929 2.5 5.5 3.61929 5.5 5ZM18.5 12H20.5M18.5 12C18.5 13.3807 17.3807 14.5 16 14.5C14.6193 14.5 13.5 13.3807 13.5 12C13.5 10.6193 14.6193 9.5 16 9.5C17.3807 9.5 18.5 10.6193 18.5 12ZM5.5 19H3.5M5.5 19C5.5 20.3807 6.61929 21.5 8 21.5C9.38071 21.5 10.5 20.3807 10.5 19C10.5 17.6193 9.38071 16.5 8 16.5C6.61929 16.5 5.5 17.6193 5.5 19Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
   </svg>
