@@ -7,7 +7,21 @@ export const AirplayIcon: React.FC<IconSvgProps> = ({ ...props }) => (
   </svg>
 
 )
+export const ReAnalyzeIcon: React.FC<IconSvgProps> = ({
+  ...props
+}) => (
+  <svg width={props.size || 22} height={props.size || 22} fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.5 19H6.23607C4.7493 19 3.78231 17.4354 4.44722 16.1056L8 9V5C8 3.89543 8.89543 3 10 3H12C13.1046 3 14 3.89543 14 5V9M11 19H16C17.1046 19 18 18.1046 18 17M11 19L13 21M11 19L13 17M21 12H16C14.8954 12 14 12.8954 14 14M21 12L19 10M21 12L19 14" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} strokeLinecap="round" />
+  </svg>
+);
+export const AnalyzeIcon: React.FC<IconSvgProps> = ({
+  ...props
+}) => (
+  <svg width={props.size || 22} height={props.size || 22} viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.99997 7V3C4.99997 1.89543 5.8954 1 6.99997 1H8.99997C10.1045 1 11 1.89543 11 3V7L14.5528 14.1056C15.2177 15.4354 14.2507 17 12.7639 17H3.23604C1.74927 17 0.782283 15.4354 1.44718 14.1056L4.99997 7Z" stroke={props.stroke || 'black'} strokeWidth={props.strokeWidth || 2} stroke-linecap="square" />
+  </svg>
 
+);
 export const CopyIcon: React.FC<IconSvgProps> = ({
   ...props
 }) => (
